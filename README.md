@@ -19,7 +19,7 @@ e.g. if you want to have 3 modals, you don't need to add the component 3 times, 
 Install with npm:
 
 ```js
-npm install --save vuedals
+npm install --save @46and2/vuedals
 ```
 
 ## Example
