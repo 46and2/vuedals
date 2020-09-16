@@ -1,16 +1,16 @@
 {
-  "name": "vuedals",
-  "version": "1.8.0",
+  "name": "@46and2/vuedals",
+  "version": "1.8.1",
   "scripts": {
     "build": "rm -rf ./dist && webpack --config ./webpack.config.js && webpack --config webpack.config.min.js",
     "release": "bash ./release.sh",
     "prepare": "npm run build"
   },
-  "description": "Event based Vue's modal windows, with a single component",
+  "description": "Event based Vue's modal windows, with a single component (Fork of @javisperez/vuedals)",
   "main": "dist/vuedals.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javisperez/vuedals.git"
+    "url": "git+https://github.com/46and2/vuedals.git"
   },
   "keywords": [
     "vue",
@@ -22,15 +22,11 @@
     "plugin"
   ],
   "author": {
-    "name": "Javis Perez",
-    "email": "javisperez@gmail.com"
+    "name": "46and2"
   },
   "readme": "README.md",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/javisperez/vuedals/issues"
-  },
-  "homepage": "https://github.com/javisperez/vuedals",
+  "homepage": "https://github.com/46and2/vuedals",
   "dependencies": {
     "macaddress": "^0.2.9",
     "randomatic": "^3.1.1",
