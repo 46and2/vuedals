@@ -1,6 +1,6 @@
 {
   "name": "@46and2/vuedals",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "scripts": {
     "build": "rm -rf ./dist && webpack --config ./webpack.config.js && webpack --config webpack.config.min.js",
     "release": "bash ./release.sh",
