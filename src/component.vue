@@ -202,7 +202,7 @@ export default {
                 return;
             }
 
-            if (this.current.closeOnBackdrop === true) {
+            if (this.current.closeOnBackdrop && this.isMouseDownTriggeredOnSelf) {
                 this.dismiss();
                 this.isMouseDownTriggeredOnSelf = false;
             }
